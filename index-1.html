@@ -48,7 +48,22 @@ a {
 				 margin-left: 30vh;
                  margin-bottom: 0 ;
             }
-    
+            .btn {
+	background: unset;
+	border: unset;
+	position: absolute;
+	left: 50%;
+	top: 6px;
+	z-index: 2;
+	/* width: 7vh; */
+	transform: translate(-50%);
+}
+.titlebtn {
+	width: 65vh;
+}
+.titlebtn:hover {
+	transform: rotate(-2deg);
+}
 </style>        
 </head>
 	
@@ -57,6 +72,7 @@ a {
 <center>
   <div class="outer">
     <img class="img" src="home.gif" alt="" border="0">
+    <a href="#" class="btn"><img src="Title_Button.png" class="titlebtn" alt=""></a>
     <p id="one"><a href="https://elfhelm/2/Cats">חמ"ל<br>חתולים</a></p>
 	<p id="two"><a href="https://elfhelm/2/Inside">בתוך<br>הבית</a></p>
   </div>
