@@ -7,19 +7,13 @@
 <title></title>
 
 <style>
-    /* .outer {
-} */
-	/* html, body{
-    overflow: hidden !important;
-  } */
-  *{
-    overflow: hidden !important;
-  }
+    .outer {
+}
+	
 .outer > img {
   position: absolute;
   height: 100%;
   max-width: 100%;
-  /* width: 100vw; */
   z-index: 1;
   left: 0px;
   right: 0;
@@ -45,7 +39,7 @@ a {
                  margin-top: -2vh ;
 				 margin-left: 12vh;
                  margin-bottom: 0 ;
-				/* font-color: red; */
+				font-color: red;
             }
 #two {
                 font-size: 2.8vh;
@@ -57,15 +51,18 @@ a {
             .btn {
 	background: unset;
 	border: unset;
-	position: absolute;
+	position: fixed;
 	left: 50%;
 	top: 6px;
 	z-index: 2;
 	/* width: 7vh; */
 	transform: translate(-50%);
+  margin: 0;
+  padding: 0;
 }
 .titlebtn {
 	width: 65vh;
+	height: auto;
 }
 .titlebtn:hover {
 	transform: rotate(-2deg);
@@ -79,22 +76,32 @@ a {
 
 @media screen and (max-width:450px){
   .titlebtn {
-	width: 55vh;
+	width: 90vw;
 }
 }
 @media screen and (max-width:400px){
   .titlebtn {
-	width: 50vh;
+    width: 85vw;
 }
 }
 @media screen and (max-width:375px){
   .titlebtn {
-	width: 45vh;
+	width: 80vw;
 }
 }
 @media screen and (max-width:375px){
   .titlebtn {
-	width: 40vh;
+	width: 75vw;
+}
+}
+@media screen and (max-width:350px){
+  .titlebtn {
+	width: 70vw;
+}
+}
+@media screen and (max-width:300px){
+  .titlebtn {
+	width: 65vh;
 }
 }
 </style>        
@@ -105,7 +112,7 @@ a {
 <center>
   <div class="outer">
     <img class="img" src="home.gif" alt="" border="0">
-    <button class="btn"><img src="Title_Button.png" class="titlebtn" alt=""></button>
+    <a href="#" class="btn"><img src="Title_Button.png" class="titlebtn" alt=""></a>
     <p id="one"><a href="https://elfhelm/2/Cats">חמ"ל<br>חתולים</a></p>
 	<p id="two"><a href="https://elfhelm/2/Inside">בתוך<br>הבית</a></p>
   </div>
