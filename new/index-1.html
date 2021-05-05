@@ -77,14 +77,14 @@
     max-width: 85vw;
 }
 .cats {
-	position: absolute;
+	position: fixed;
 	z-index: 2;
 	font-size: 3.5vh;
 	top: 20vh;
 	line-height: 1;
 }
 .inside {
-	position: absolute;
+	position: fixed;
 	z-index: 2;
 	font-size: 3.5vh;
 	line-height: 1;
@@ -94,7 +94,7 @@
 	/* left: 56.5%; */
 }
 .tree {
-	position: absolute;
+	position: fixed;
 	z-index: 2;
 	font-size: 3.5vh;
 	line-height: 1;
@@ -104,7 +104,7 @@
 	/* left: 44%; */
 }
 .gates {
-	position: absolute;
+	position: fixed;
 	z-index: 2;
 	font-size: 3.5vh;
 	line-height: 1;
@@ -114,7 +114,7 @@
 	/* left: 35%; */
 }
 .fences {
-	position: absolute;
+	position: fixed;
 	z-index: 2;
 	font-size: 3.5vh;
 	line-height: 1;
@@ -124,7 +124,7 @@
 	/* left: 63%; */
 }
 .crows {
-	position: absolute;
+	position: fixed;
 	z-index: 2;
 	font-size: 3.5vh;
 	line-height: 1;
@@ -134,7 +134,7 @@
 	/* left: 38%; */
 }
 .snails {
-	position: absolute;
+	position: fixed;
 	z-index: 2;
 	font-size: 3.5vh;
 	line-height: 1;
@@ -144,7 +144,7 @@
 	/* left: 64%; */
 }
 .turds {
-	position: absolute;
+	position: fixed;
 	z-index: 2;
 	font-size: 3.5vh;
 	line-height: 1;
@@ -154,7 +154,7 @@
 	/* left: 64%; */
 }
 .tunnel {
-	position: absolute;
+	position: fixed;
 	z-index: 2;
 	font-size: 3.5vh;
 	line-height: 1;
@@ -163,7 +163,7 @@
 	/* left: 54%; */
 }
 .hedgehogs {
-	position: absolute;
+	position: fixed;
 	z-index: 2;
 	font-size: 3.5vh;
 	line-height: 1;
@@ -173,7 +173,7 @@
 	/* left: 38%; */
 }
 .gardenvid {
-	position: absolute;
+	position: fixed;
 	z-index: 2;
 	font-size: 3.5vh;
 	line-height: 1;
@@ -186,6 +186,99 @@ span:hover {
 	transform: rotate(-2deg);
 }
 
+/* @media screen and (max-height:300px){
+	a{
+		color: red;
+	}
+
+	.gates {
+	margin-left: -5vw;
+}
+.tree {
+	margin-left: -3vw;
+}
+.inside {
+	margin-left: 1.5vw;
+}
+.fences {
+	margin-left: 3.5vw;
+}
+.snails {
+	margin-left: 3vw;
+}
+.turds {
+	margin-left: 2vw;
+}
+.crows {
+	margin-left: -4vw;
+}
+.hedgehogs {
+	margin-left: -4vw;
+}
+.gardenvid{
+	margin-left: -4vw;
+}
+} */
+
+@media screen and (max-width:1500px){
+	@media screen and (min-width:899px){
+		.inside {
+			margin-left: 6vw;
+		}
+		.fences {
+			margin-left: 15vw;
+		}
+		.gates {
+			margin-left: -21vw;
+		}
+		.crows {
+			margin-left: -20vw;
+		}
+		.gardenvid {
+			margin-left: -20vw;
+		}
+		.hedgehogs {
+			margin-left: -20vw;
+		}
+		.snails {
+			margin-left: 14vw;
+		}
+		.turds {
+			margin-left: 11vw;
+		}
+	}
+}
+@media screen and (max-width:1300px){
+	@media screen and (min-height:949px){
+		.inside {
+			margin-left: 7vw;
+		}
+	}
+	.fences {
+			margin-left: 18vw;
+		}
+		.snails {
+	margin-left: 16vw;
+}
+.turds {
+	margin-left: 13vw;
+}
+.crows {
+	margin-left: -23vw;
+}
+.hedgehogs {
+	margin-left: -23vw;
+}
+.gardenvid {
+	margin-left: -23vw;
+}
+.gates {
+	margin-left: -23vw;
+}
+.tree {
+	margin-left: -13vw;
+}
+}
 @media screen and (max-width:1250px){
     .gates {
 	margin-left: -19vw;
@@ -237,6 +330,33 @@ span:hover {
 }
 .inside {
 	margin-left: 6vw;
+}
+
+@media screen and (min-height:1300px){
+	.tree {
+	margin-left: -24vw;
+}
+.inside {
+	margin-left: 13vw;
+}
+.fences {
+	margin-left: 32vw;
+}
+.snails {
+	margin-left: 28vw;
+}
+.crows {
+	margin-left: -41vw;
+}
+.hedgehogs {
+	margin-left: -41vw;
+}
+.gardenvid{
+	margin-left: -41vw;
+}
+.turds {
+	margin-left: 23vw;
+}
 }
 }
 
@@ -327,6 +447,33 @@ span:hover {
 }
 .inside {
 	margin-left: 13vw;
+}
+
+@media screen and (min-height:900px){
+	.tree {
+	margin-left: -24vw;
+}
+.gates {
+    margin-left: -44vw;
+}
+.fences {
+	margin-left: 31vw;
+}
+.crows {
+	margin-left: -43vw;
+}
+.hedgehogs{
+    margin-left: -43vw;
+}
+.gardenvid{
+    margin-left: -43vw;
+}
+.snails {
+	margin-left: 27vw;
+}
+.turds {
+	margin-left: 23vw;
+}
 }
 }
 
@@ -444,7 +591,18 @@ a{
 }
 }
 
-@media screen and (min-height:1400px){
+@media screen and (max-width:300px){
+	@media screen and (min-height:650px){
+		.fences {
+			margin-left: 32vw;
+		}
+		.snails {
+			margin-left: 25vw;
+		}
+	}
+}
+
+/* @media screen and (min-height:1400px){
     .gates {
 	margin-left: -30vw;
 }
@@ -472,9 +630,9 @@ a{
 .turds {
 	margin-left: 16vw;
 }
-}
+} */
 
-@media screen and (min-height:1350px){
+/* @media screen and (min-height:1350px){
     .gates {
 	margin-left: -28vw;
 }
@@ -502,9 +660,9 @@ a{
 .turds {
 	margin-left: 16vw;
 }
-}
+} */
 
-@media screen and (min-height:1290px){
+/* @media screen and (min-height:1290px){
     .gates {
 	margin-left: -28vw;
 }
@@ -532,9 +690,9 @@ a{
 .turds {
 	margin-left: 14vw;
 }
-}
+} */
 
-@media screen and (min-height:1250px){
+/* @media screen and (min-height:1250px){
     .gates {
 	margin-left: -26vw;
 }
@@ -562,9 +720,9 @@ a{
 .turds {
 	margin-left: 14vw;
 }
-}
+} */
 
-@media screen and (min-height:1165px){
+/* @media screen and (min-height:1165px){
     .gates {
 	margin-left: -23vw;
 }
@@ -592,9 +750,9 @@ a{
 .turds {
 	margin-left: 12vw;
 }
-}
+} */
 
-@media screen and (min-height:1120px){
+/* @media screen and (min-height:1120px){
     .gates {
 	margin-left: -23vw;
 }
@@ -622,9 +780,9 @@ a{
 .turds {
 	margin-left: 12vw;
 }
-}
+} */
 
-@media screen and (min-height:1050px){
+/* @media screen and (min-height:1050px){
     .gates {
 	margin-left: -20vw;
 }
@@ -641,42 +799,35 @@ a{
 .turds {
 	margin-left: 11vw;
 }
-}
+} */
 
-@media screen and (min-height:950px){
+/* @media screen and (min-height:950px){
 
 .snails {
 	margin-left: 12vw;
 }
-}
+} */
 
-@media screen and (min-height:900px){
+/* @media screen and (min-height:900px){ */
 
-.gates {
+/* .gates {
 	margin-left: -18vw;
-}
-.tree {
-	margin-left: -10vw;
-}
-.fences {
+} */
+
+/* .fences {
 	margin-left: 13vw;
-}
-.crows {
+} */
+/* .crows {
 	margin-left: -17vw;
-}
-.hedgehogs{
-    margin-left: -17vw;
-}
-.gardenvid{
-    margin-left: -17vw;
-}
-.snails {
+} */
+
+/* .snails {
 	margin-left: 11vw;
 }
 .turds {
 	margin-left: 10vw;
-}
-}
+} */
+/* } */
     </style>
 </head>
 <body>
