@@ -925,7 +925,11 @@ a{
 }
 }
 .outer.img.home {
-	height: calc(100vh-56px);
+@supports (-webkit-appearance:none) {
+.os-android & {
+min-height: calc(100vh - 56px);
+}
+}
 }
 @media screen and (max-width:361px){
 	@media screen and (max-height:641px){
